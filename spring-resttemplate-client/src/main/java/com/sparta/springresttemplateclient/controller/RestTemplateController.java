@@ -21,16 +21,19 @@ public class RestTemplateController {
 
     @GetMapping("/get-call-obj")
     public ItemDto getCallObject(String query) {
+
         return restTemplateService.getCallObject(query);
     }
 
     @GetMapping("/get-call-list")
     public List<ItemDto> getCallList() {
+
         return restTemplateService.getCallList();
     }
 
     @GetMapping("/post-call")
     public ItemDto postCall(String query) {
+
         return restTemplateService.postCall(query);
     }
 
