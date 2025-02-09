@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-resttemplate-client" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-resttemplate-server" vcs="Git" />
   </component>
 </project>
